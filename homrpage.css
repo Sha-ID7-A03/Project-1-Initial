@@ -1,0 +1,102 @@
+body {
+  background-image: url(Essential_Plumbing_Tools-homr-1024x683.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*---------------------Navbar--------------------------------------------------------------------------------------------------------------*/
+.navbar li {
+  display: inline-block;
+}
+
+.Top {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+* {
+  text-decoration: none;
+}
+
+.logo a{
+  font-style: oblique;
+  font-size: 40px;
+  font-weight: 500;
+  color: gold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar li a {
+  font-size: 20px;
+  color: antiquewhite;
+  margin-right: 15px;
+}
+
+.navbar button {
+  font-size: 25px;
+  padding: 15px;
+  background-color: royalblue;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+/* -------------------------- Main box ------------------------------------------------------------------------------------------------------------ */
+
+.bigtext {
+  color: gold;
+  font-size: 100px;
+}
+
+.subhead {
+  font-size: 33px;
+}
+
+.tour button {
+  background-color: rgba(78, 74, 74, 0.089);
+  color: whitesmoke;
+  width: 60%;
+  height: 40px;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.tour {
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.tour button:hover{
+  background-color: grey;
+  color: black;
+  border-color: grey;
+}
+
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name - the two classes below need to be uniquely named*/
+
+.playwrite-be-vlg-aabb {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.edu-au-vic-wa-nt-hand-aabb {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
